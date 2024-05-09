@@ -13,7 +13,7 @@ function BotCollection({ bots, onEnlist, dischargeBot }) {
 
   if (selectedBot) {
     return (
-      <BotSpecs
+      <BotSpecs 
         bot={selectedBot}
         enlistBot={onEnlist}
         navigateBack={handleGoBack}
